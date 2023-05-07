@@ -1,0 +1,4 @@
+{
+  "builds": [{ "src": "index.md", "use": "@now/static-build" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+}
